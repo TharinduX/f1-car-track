@@ -19,7 +19,6 @@ const getF1CarLocations = async (req, res, next) => {
     const f1cars = await firestore.collection('f1cars');
     const data = await f1cars.get();
     const f1carsArray = [];
-
     if (data.empty) {
       res.status(404).send('No locations found');
     } else {
