@@ -26,7 +26,7 @@ const getF1CarLocations = async (req, res, next) => {
       data.forEach((doc) => {
         const f1car = new F1Car(
           doc.id,
-          doc.data().carId,
+          doc.data().carName,
           doc.data().longitude,
           doc.data().latitude,
           doc.data().speed,

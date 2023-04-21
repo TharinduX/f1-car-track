@@ -1,7 +1,7 @@
 class F1cars {
-  constructor(id, carId, longitude, latitude, timestamp, speed) {
+  constructor(id, carName, longitude, latitude, timestamp, speed) {
     this.id = id;
-    this.carId = carId;
+    this.carName = carName;
     this.longitude = longitude;
     this.latitude = latitude;
     this.speed = speed;
