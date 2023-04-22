@@ -13,6 +13,8 @@
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@react-google-maps/api": "^2.18.1",
+    "@ubilabs/google-maps-react-hooks": "^2.0.2",
     "firebase": "^9.20.0",
     "framer-motion": "^10.12.4",
     "react": "^18.2.0",
