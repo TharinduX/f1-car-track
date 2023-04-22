@@ -1,7 +1,11 @@
 import MapView from './MapView';
 
 function App() {
-  return <MapView />;
+  return (
+    <div className='App'>
+      <MapView />
+    </div>
+  );
 }
 
 export default App;
