@@ -35,7 +35,7 @@ const Card = (props) => {
           justifyContent='space-around'
         >
           <Text as='b' textAlign='center' fontSize='lg' p={2}>
-            1
+            {props.place}
           </Text>
         </Flex>
         <Stack>
